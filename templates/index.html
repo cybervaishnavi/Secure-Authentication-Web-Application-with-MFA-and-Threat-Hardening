@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Secure Authentication Portal</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body class="cyber-bg">
+
+<div class="cyber-container">
+
+<h1 class="glow">SECURE ACCESS TERMINAL</h1>
+
+<p class="warning">AUTHORIZED USERS ONLY • ACTIVITY MONITORED</p>
+
+<form method="POST" action="/login" class="cyber-form">
+
+<input type="text" name="username" placeholder="Username" required>
+
+<input type="password" name="password" placeholder="Password" required>
+
+<button type="submit" class="cyber-btn">ACCESS SYSTEM</button>
+
+</form>
+
+<p class="demo">Demo Credentials → user / U$eR@12345</p>
+
+</div>
+
+</body>
+</html>

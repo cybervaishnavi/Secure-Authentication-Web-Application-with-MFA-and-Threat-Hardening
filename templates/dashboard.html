@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Secure Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css') }}">
+</head>
+
+<body class="dash-bg">
+
+<div class="dash-container">
+
+<h1 class="dash-title">🔐 SECURE ACCESS GRANTED</h1>
+
+<p class="dash-sub">Identity Verified • MFA Successful • Session Protected</p>
+
+<div class="status-box">
+
+<div class="status-item success">✔ Authentication Successful</div>
+<div class="status-item">🛡️ Threat Monitoring Active</div>
+<div class="status-item">📡 Session Encrypted</div>
+<div class="status-item">⚙️ System Integrity Stable</div>
+
+</div>
+
+<a href="/logout" class="logout-btn">Terminate Session</a>
+
+</div>
+
+</body>
+</html>

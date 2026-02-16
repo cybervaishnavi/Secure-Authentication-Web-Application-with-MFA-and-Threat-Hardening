@@ -1,0 +1,61 @@
+body.dash-bg {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle at center, #08131f, #02070d);
+    color: #00ffea;
+}
+
+.dash-container {
+    width: 600px;
+    margin: 120px auto;
+    background: rgba(0, 20, 30, 0.9);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 30px #00ffe0;
+    text-align: center;
+}
+
+.dash-title {
+    font-size: 34px;
+    text-shadow: 0 0 10px #00ffe0;
+    margin-bottom: 10px;
+}
+
+.dash-sub {
+    color: #9befff;
+    margin-bottom: 30px;
+}
+
+.status-box {
+    text-align: left;
+    margin: 25px 0;
+}
+
+.status-item {
+    padding: 12px;
+    margin: 10px 0;
+    border-left: 4px solid #00ffe0;
+    background: rgba(0, 255, 224, 0.05);
+}
+
+.success {
+    border-left: 4px solid #00ff6a;
+    color: #00ff6a;
+}
+
+.logout-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background: linear-gradient(90deg, #ff003c, #ff0066);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    box-shadow: 0 0 15px #ff003c;
+    transition: 0.3s;
+}
+
+.logout-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px #ff003c;
+}

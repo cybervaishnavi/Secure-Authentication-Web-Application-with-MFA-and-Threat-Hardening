@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MFA Verification</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body class="cyber-bg">
+
+<div class="cyber-container">
+
+<h1 class="glow">MULTI-FACTOR AUTHENTICATION</h1>
+
+<p class="warning">ENTER SECURITY CODE TO CONTINUE</p>
+
+<form action="/verify" method="POST" class="cyber-form">
+
+<input type="text" name="code" placeholder="Enter MFA Code" required>
+
+<button type="submit" class="cyber-btn">VERIFY IDENTITY</button>
+
+</form>
+
+<p class="demo">Check terminal for demo MFA code</p>
+
+</div>
+
+</body>
+</html>

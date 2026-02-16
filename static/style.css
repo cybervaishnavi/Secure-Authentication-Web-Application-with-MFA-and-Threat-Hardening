@@ -1,0 +1,74 @@
+body.cyber-bg {
+    margin: 0;
+    font-family: Consolas, monospace;
+    background: radial-gradient(circle at center, #0a0f1f, #000814);
+    color: #00ffcc;
+    height: 100vh;
+}
+
+.cyber-container {
+    width: 380px;
+    margin: 120px auto;
+    padding: 40px;
+    background: rgba(0, 10, 30, 0.9);
+    border: 2px solid #00ffcc;
+    border-radius: 12px;
+    box-shadow: 0 0 25px #00ffcc;
+    text-align: center;
+    animation: pulse 2s infinite alternate;
+}
+
+.glow {
+    font-size: 26px;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+}
+
+.warning {
+    color: #ffcc00;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.cyber-form input {
+    width: 90%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #00ffcc;
+    background: black;
+    color: #00ffcc;
+    font-size: 16px;
+    outline: none;
+}
+
+.cyber-form input::placeholder {
+    color: #008b8b;
+}
+
+.cyber-btn {
+    width: 100%;
+    padding: 12px;
+    background: transparent;
+    border: 2px solid #00ffcc;
+    color: #00ffcc;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cyber-btn:hover {
+    background: #00ffcc;
+    color: black;
+    box-shadow: 0 0 15px #00ffcc;
+}
+
+.demo {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #aaaaaa;
+}
+
+@keyframes pulse {
+    from { box-shadow: 0 0 15px #00ffcc; }
+    to { box-shadow: 0 0 35px #00ffcc; }
+}
